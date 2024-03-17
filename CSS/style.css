@@ -1,7 +1,8 @@
 body{
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     background: rgb(255,255,255);
-background: linear-gradient(196deg, rgba(255,255,255,1) 0%, rgba(0,43,108,1) 57%);
+background: linear-gradient(196deg, rgba(255,255,255,1) 0%, rgba(0, 43, 108, 0.868) 57%);
+
 }
 ul{
     list-style-type: none;
@@ -10,10 +11,35 @@ a{
     text-decoration: none;
     color: rgba(0,43,108,255);
 }
-img#Jezero{
-    text-align: left;
+.left{
+    border: black solid 3px;
+    display: flow-root;
 }
-p#jezertext{
-    text-align: left;
+.right{
+    margin-top:  5px;
+    margin-bottom: 5px;
+    border: black solid 3px;
+    display: flow-root;
+    text-align: right;
+}
+#jezero{
+    float: left;
+    margin: 5px;
 }
 
+#obyvatel{
+    float: right;
+    margin: 5px;
+}
+#finové{
+    float: left;
+    margin: 5px;
+}
+#klobasa{
+    float: right;
+    margin: 5px;
+}
+#legenda{
+    float: left;
+    margin: 5px;
+}
